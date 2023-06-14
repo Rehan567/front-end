@@ -1,0 +1,50 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-bottom: 25px;
+    .top {
+        margin-bottom: 15px;
+        
+    }
+
+    .down {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+       
+
+        .left-side{
+            display: flex;
+            flex-grow: 0;
+
+            a{
+                all:unset;
+                margin-top: 12px;
+                margin-left: 70px;
+                margin-right: 10px;
+                cursor: pointer;
+                font-weight: 500;
+            }
+            .active{
+                border-bottom: 5px solid var(--button-color);
+                color: var(--button-color);
+            }
+
+        }
+        .right-side{
+            button{
+                all:unset;
+                background-color:var(--button-color);
+                color: white;
+                cursor: pointer;
+                padding: 10px;
+                font-size: large;
+            }
+            button:hover{
+                background-color:rgb(226, 89, 47);
+            }
+        }
+
+    }
+}

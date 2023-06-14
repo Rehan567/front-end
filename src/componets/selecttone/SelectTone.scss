@@ -1,0 +1,82 @@
+.SelectTone {
+    img {
+        width: 350px;
+        height: 274px;
+    }
+
+    .container {
+        height: 442px;
+        border: 1px solid #ddd;
+    }
+
+    form {
+        width: 70%;
+        margin-left: 25px;
+        margin-top: 20px;
+
+
+        textarea {
+            border: 1px solid black;
+            height: 250px;
+            width: 1304px;
+            resize: none;
+        }
+
+        label {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 20px;
+                height: 20px;
+                // margin-top: 2px;
+                display: inline-block;
+
+            }
+
+            h5 {
+                display: inline-block;
+                // margin-bottom: 3px;
+                margin-right: 4px;
+            }
+        }
+
+        .img {
+
+            width: 155px;
+            height: 37px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        #img {
+            display: none;
+        }
+
+
+        select {
+            display: block;
+            height: 40px;
+            font-size: x-large;
+            font-weight: 400;
+            width: 260px;
+            margin-bottom: 10px;
+        }
+
+        .submit {
+            margin-top: 15px;
+            display: block;
+            height: 30px;
+            // background-color: red;
+        }
+    }
+
+    .outside-img {
+        margin-top: 10px;
+        border: 1px solid black;
+        width: 350px;
+        height: 274px;
+
+    }
+}
